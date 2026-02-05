@@ -1,0 +1,575 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    height: 44px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+}
+
+.navbar-main {
+    width: 100%;
+    max-width: 1000px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.apple-logo {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 300px;
+    top: 15px;
+}
+
+.nav-list {
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list li {
+    color: #000000;
+    font-size: 12px;
+
+}
+
+.nav-under {
+    width: 100%;
+    height: 48px;
+    background-color: rgba(245, 245, 247);
+    margin-top: 48px;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.hero-image {
+    width: 100%;
+    height: 584px;
+
+}
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* iPhone Section */
+.iphone-section {
+  background: #f5f5f7;
+  text-align: center;
+  padding-top: 80px;
+  overflow: hidden; /* IMPORTANT: natural bottom crop */
+}
+
+.iphone-text h2 {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.iphone-text p {
+  font-size: 21px;
+  color: #000000;
+  margin-top: 10px;
+}
+
+
+
+.iphone-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+}
+
+.primary {
+  font-size: 17px;
+  border-radius: 25px;
+  padding: 11px 21px;
+  background-color:#0071e3;
+  color: #ffffff;
+  border: 1.5px solid #0071e3;
+
+}
+.secondary{
+  font-size: 17px;
+  border-radius: 25px;
+  padding: 11px 21px;
+  background-color:transparent;
+  color: #0071e3;
+  border: 1.5px solid #0071e3;
+  
+  
+}
+
+
+.iphone-images{
+
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.iphone-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ipad-air section */
+
+.ipad-bg{
+    margin-top: 12px;
+    background-position: center;
+    width: 100%;
+    height: 580px;
+    background-image: url(./images/hero_ipad_air_avail__c34ycq52exg2_large.jpg);
+}
+
+.ipad-text p {
+  font-size: 21px;
+  color: #000000;
+  margin-top: 10px;
+}
+
+.ipad-center{
+    
+   padding-top: 50px;
+    width: 100%;
+    height: 220px;
+    /* background-color: brown; */
+    
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+.b1 {
+  font-size: 17px;
+  border-radius: 25px;
+  padding: 11px 21px;
+  background-color:#0071e3;
+  color: #ffffff;
+  border: 1.5px solid #0071e3;
+
+}
+.b2{
+    width: 72.81px;
+    height: 43.6;
+  font-size: 17px;
+  border-radius: 25px;
+  padding: 11px 21px;
+  background-color:transparent;
+  color: #0071e3;
+  border: 1.5px solid #0071e3;
+  
+  
+}
+.ipad-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+}
+
+/* GRID SECTION */
+
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  padding: 12px;
+}
+.cell{
+  
+  height: 580px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+.watchw{
+ 
+ 
+  background-image: url(./images/promo_apple_watch_series_11__b63hxviqvonm_small_2x.jpg);
+}
+.watchb{
+  background-image: url(./images/promo_apple_watch_unity__casvx9ysh1le_small_2x.jpg);
+}
+.fitness{
+  background-image: url(./images/promo_fitness__e3pj2kkbjoom_small_2x.jpg);
+}
+.airpods{
+  background-image: url(./images/promo_airpodspro_3__f6xmza7bglei_small_2x.jpg);
+}
+.macbook{
+  background-image: url(./images/promo_macbook_pro_m5__gnwzdhijhm6a_small_2x.jpg);
+}
+.trade{
+  background-image: url(./images/promo_iphone_tradein__bugw15ka691e_small_2x.jpg);
+}
+
+/* image resizing */
+.watchw{
+  background-size: 160%;
+  background-position:center bottom;
+}
+.fitness{
+  background-size: 160%;
+  
+}
+.airpods{
+  background-size: 150%;
+  background-position: center 70%;
+}
+.macbook{
+  
+  background-position: center 65%;
+}
+
+
+/* watch white section */
+
+.watchw-text p {
+  font-size: 21px;
+  color: #000000;
+  margin-top: 5px;
+}
+
+.watchwsec{
+    
+    padding-top: 50px;
+    width: 580x;
+    height: 200px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+.wwb1 {
+  width: 103.85px;
+  height: 35.6px;
+  font-size: 14px;
+  border-radius: 25px;
+  padding: 10px;
+  background-color:#0071e3;
+  color: #ffffff;
+  border: 1.5px solid #0071e3;
+
+}
+.wwb2{
+  width: 61.6px;
+  height: 35.6px;
+  font-size: 14px;
+  border-radius: 25px;
+  
+  padding: 10px;
+  background-color:transparent;
+  color: #0071e3;
+  border: 1.5px solid #0071e3;
+  
+  
+}
+
+.watchw-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+}
+
+
+/* watch BLACK section */
+
+.watchb-text p {
+  font-size: 21px;
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.watchbsec{
+    
+    padding-top: 50px;
+    width: 580x;
+    height: 200px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+  }
+.wbb1{
+  width: 64.69px;
+  height: 35.6px;
+  font-size: 14px;
+  border-radius: 25px;
+  padding: 7px 15px;
+  background-color:#ffffff;
+  color: #000000;
+  border: 1.5px solid #ffffff;
+
+}
+
+
+.watchb-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+}
+
+
+ /* FITNESS SECTION  */
+
+ .fit-text p {
+  font-size: 21px;
+  color: #ffffff;
+  
+}
+
+.fit-sec{
+    
+    padding-top: 50px;
+    width: 580x;
+    height: 200px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+  }
+.fb1 {
+  width: 103.85px;
+  height: 35.6px;
+  font-size: 14px;
+  border-radius: 25px;
+  padding: 10px;
+
+  background-color:white;
+  color: #000000;
+  border: 1.5px solid white;
+
+}
+.fb2{
+  width: 96.05px;
+  height: 35.6px;
+  font-size: 14px;
+  border-radius: 25px;
+  
+  padding: 10px;
+  background-color:transparent;
+  color: #ffffff;
+  border: 1.5px solid #ffffff;
+  
+  
+}
+
+.fit-buttons {
+   margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+}
+
+
+ /* AIRPODS SECTION */
+.air-text{
+ 
+ text-align: center;
+}
+
+.air-text h3{
+  font-size: 40px;
+  
+  color: #000000;
+  font-weight: 600
+ 
+
+}
+
+.air-text p {
+  font-size: 21px;
+  color: #000000;
+  margin-top: 5px;
+}
+
+.airsec{
+    
+    padding-top: 50px;
+    width: 580x;
+    height: 200px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+.ab1 {
+  width: 103.85px;
+  height: 35.6px;
+  font-size: 14px;
+  border-radius: 25px;
+  padding: 10px;
+  background-color:#0071e3;
+  color: #ffffff;
+  border: 1.5px solid #0071e3;
+
+}
+.ab2{
+  width: 61.6px;
+  height: 35.6px;
+  font-size: 14px;
+  border-radius: 25px;
+  
+  padding: 10px;
+  background-color:transparent;
+  color: #0071e3;
+  border: 1.5px solid #0071e3;
+  
+  
+}
+
+.air-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+}
+
+
+.mac-text{
+ 
+ text-align: center;
+}
+
+.mac-text h3{
+  font-size: 40px;
+  
+  color: #ffffff;
+  font-weight: 600
+ 
+
+}
+
+.mac-text p {
+  font-size: 21px;
+  color: #ffffff;
+  
+}
+
+.macsec{
+    
+    padding-top: 50px;
+    width: 580x;
+    height: 250px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+.mb1 {
+  width: 103.85px;
+  height: 35.6px;
+  font-size: 14px;
+  border-radius: 25px;
+  padding: 10px;
+  background-color:#0071e3;
+  color: #ffffff;
+  border: 1.5px solid #0071e3;
+
+}
+.mb2{
+  width: 61.6px;
+  height: 35.6px;
+  font-size: 14px;
+  border-radius: 25px;
+  
+  padding: 10px;
+  background-color:transparent;
+  color: #0071e3;
+  border: 1.5px solid #0071e3;
+  
+  
+}
+
+.mac-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+}
+
+
+
+/* TRADE SECTION */
+
+
+.trade-text p {
+  font-size: 21px;
+  color: #000000;
+  margin-top: 5px;
+}
+
+.tradesec{
+    
+    padding-top: 50px;
+    width: 580x;
+    height: 200px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+  }
+.tb1{
+  width: 145px;
+  height: 35.6px;
+  font-size: 14px;
+  border-radius: 25px;
+  padding: 7px 15px;
+  background-color: #0071e3;
+  color: #ffffff;
+  border: 1.5px solid  #0071e3;
+
+}
+
+
+.trade-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+}
+
